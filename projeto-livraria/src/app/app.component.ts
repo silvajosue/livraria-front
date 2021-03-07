@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from 'primeng-lts/api';
 
 @Component({
   selector: 'app-root',
@@ -14,9 +14,9 @@ export class AppComponent implements OnInit {
     this.items = [
       {
         label: 'Login',
-        icon: 'pi pi-fw pi-tablet',
+        icon: 'pi pi-fw pi-plus',
         routerLink: 'login'
-      }, 
+      },
     ]
   }
 }

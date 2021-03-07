@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import {MenubarModule} from 'primeng/menubar';
+import {MenubarModule} from 'primeng-lts/menubar';
 
 @NgModule({
   declarations: [
@@ -14,9 +14,8 @@ import {MenubarModule} from 'primeng/menubar';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MenubarModule
+    MenubarModule,
   ],
-  providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
