@@ -18,7 +18,7 @@ import { LoginComponent } from './pages/login/login.component';
     HttpClientModule,
     CardModule,
     FieldsetModule,
-    InputTextModule
+    InputTextModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
