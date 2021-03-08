@@ -11,7 +11,6 @@
   },
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "@angular/animations": "^10.2.2",
     "@angular/cdk": "^10.2.6",
     "@angular/common": "~10.2.0",
@@ -28,18 +27,6 @@
     "primeicons": "2.0.0",
     "primeng": "^9.0.0",
     "quill": "^1.3.7",
-=======
-    "@angular/animations": "~11.1.2",
-    "@angular/common": "~11.1.2",
-    "@angular/compiler": "~11.1.2",
-    "@angular/core": "~11.1.2",
-    "@angular/forms": "~11.1.2",
-    "@angular/platform-browser": "~11.1.2",
-    "@angular/platform-browser-dynamic": "~11.1.2",
-    "@angular/router": "~11.1.2",
-    "primeicons": "^4.1.0",
-    "primeng-lts": "^9.2.4",
->>>>>>> 01f81e242ffe81594b8022fe35117c820dfb3e7b
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
