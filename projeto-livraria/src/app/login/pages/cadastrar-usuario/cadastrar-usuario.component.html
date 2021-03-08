@@ -1,1 +1,43 @@
-<p>cadastrar-usuario works!</p>
+<p-card p-header="Cadastrar usuario">
+    <app-mensagem #appMensagem></app-mensagem>
+
+    <form [formGroup]="formulario">
+        <div class="p-fluid">
+            <div class="p-field">
+                <label for="nome">Nome: </label>
+                <input id="nome" formControlName="nome" type="text" pInputText>
+            </div>
+            <div class="p-field">
+                <label for="sobrenome">Sobrenome: </label>
+                <input id="sobrenome" formControlName="sobrenome" type="text" pInputText>
+            </div>
+            <div class="p-field">
+                <label for="email">Email: </label>
+                <input id="email" formControlName="email" type="email" pInputText>
+            </div>
+            <div class="p-field">
+                <label for="senha">Senha: </label>
+                <input id="senha" formControlName="senha" type="password" pInputText>
+            </div>
+            <div class="p-field">
+                <label for="resenha">Insira a senha novamente: </label>
+                <input id="resenha" formControlName="resenha" type="password" pInputText>
+            </div>
+        </div>
+    </form>
+
+    <p-footer>
+        <button pButton 
+                type="button" 
+                label="Salvar" 
+                class="ui-button-success" 
+                (click)="salvar()">
+        </button>
+        <button pButton 
+                type="button" 
+                label="Voltar" 
+                class="ui-button-danger" 
+                (click)="voltar()">
+        </button>
+    </p-footer>
+</p-card>

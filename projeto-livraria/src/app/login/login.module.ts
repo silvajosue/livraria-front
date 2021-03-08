@@ -5,7 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginRoutingModule } from './login-routing.module';
 import { CadastrarUsuarioComponent } from './pages/cadastrar-usuario/cadastrar-usuario.component';
 import { LoginComponent } from './pages/login/login.component';
-import { CardModule, FieldsetModule, InputTextModule } from 'primeng';
+import { ButtonModule, CardModule, FieldsetModule, InputTextModule } from 'primeng';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,8 +17,12 @@ import { CardModule, FieldsetModule, InputTextModule } from 'primeng';
     HttpClientModule,
     CardModule,
     FieldsetModule,
+    FormsModule,
     InputTextModule,
+    ReactiveFormsModule,
+    ButtonModule
   ],
+  providers: [LoginRoutingModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class LoginModule { }
