@@ -125,8 +125,12 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "projeto-livraria",
   "cli": {
     "analytics": "e8696ecd-7be2-47b4-98a7-4606376007d8"
   }
+=======
+  "defaultProject": "projeto-livraria"
+>>>>>>> 01f81e242ffe81594b8022fe35117c820dfb3e7b
 }
