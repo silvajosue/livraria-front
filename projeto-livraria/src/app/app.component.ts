@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng-lts/api';
+import { MenuItem } from 'primeng';
 
 @Component({
   selector: 'app-root',

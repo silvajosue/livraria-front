@@ -24,6 +24,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -39,6 +43,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
+              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -120,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "projeto-livraria"
+  "defaultProject": "projeto-livraria",
+  "cli": {
+    "analytics": "e8696ecd-7be2-47b4-98a7-4606376007d8"
+  }
 }
