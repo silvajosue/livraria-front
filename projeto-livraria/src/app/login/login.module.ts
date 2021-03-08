@@ -1,9 +1,9 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
-import {CardModule} from 'primeng/card';
-import {FieldsetModule} from 'primeng/fieldset';
-import {InputTextModule} from 'primeng/inputtext';
+import {CardModule} from 'primeng-lts/card';
+import {FieldsetModule} from 'primeng-lts/fieldset';
+import {InputTextModule} from 'primeng-lts/inputtext';
 
 import { LoginRoutingModule } from './login-routing.module';
 import { CadastrarUsuarioComponent } from './pages/cadastrar-usuario/cadastrar-usuario.component';
