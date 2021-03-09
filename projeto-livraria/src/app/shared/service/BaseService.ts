@@ -1,4 +1,4 @@
-import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { HttpHeaders } from "@angular/common/http";
 
 export class BaseService{
     
@@ -14,4 +14,5 @@ export class BaseService{
             }
         )
     }
+
 }

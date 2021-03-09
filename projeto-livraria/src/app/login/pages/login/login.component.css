@@ -1,16 +1,31 @@
 .usuario-login{
     text-align: center;
-    position: absolute;
+    position: relative;
+    
+}
+
+*{
+    font-size: 37px;
+    font-family: 'Dancing Script';
+    font: bolder;
 }
 
 .card-style{
     width: 25rem;
     margin-bottom: 2em;
-    position: absolute;
+    position: relative;
+}
+.username{
+    font-family: 'Dancing Script';
+    font-size: 22px;
+}
+.div-style{
+    width: 50%;
+    margin: 30px 25%;
 }
 
-body{
-    text-align: center;
+
+p-footer{
     align-items: center;
-    padding-top: 20px;
+    margin: 40vw
 }

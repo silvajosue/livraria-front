@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Dancing Script';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: large;
+    font: bolder;
+  }

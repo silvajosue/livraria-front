@@ -1,17 +1,27 @@
 <p-card class="card-style">
-    <p-fieldset legend="Login" class="usuario-login">
-        <span class="p-float-label">
-            <label for="usuario">Usuario:</label>
-            <br />
-            <input id="usuario" type="email" pInputText>
-        </span>
-        <br />
-        <br />
-        <span class="p-float-label">
-            <label for="usuario">Senha:</label>
-            <br />
-            <input id="usuario" type="password" pInputText>
-        </span>
-        
-    </p-fieldset>
+    <form [formGroup]="formulario">
+        <div class="div-style">
+            <p-fieldset legend="Login" class="usuario-login">
+                <span class="p-float-label">
+                    <label for="usuario">Usuario:</label>
+                    <br />
+                    <input id="usuario" formControlName="usuario" class="username" type="email" pInputText>
+                </span>
+                <br />
+                <br />
+                <span class="p-float-label">
+                    <label for="senha">Senha:</label>
+                    <br />
+                    <input id="senha" formControlName="senha" type="password" pInputText>
+                </span>
+
+            </p-fieldset>
+        </div>
+    </form>
+    <p-footer>
+        <button pButton type="button" label="Entrar" class="ui-button-success" (click)="entrar()">
+        </button>
+        <button pButton type="button" label="Cadastrar" class="ui-button-infor" (click)="cadastrar()">
+        </button>
+    </p-footer>
 </p-card>
